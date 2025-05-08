@@ -20,13 +20,13 @@ namespace WpfApp1.ViewModel
         public object CurrentView
         {
             get => _currentView;
-            private set => SetProperty(ref _currentView, value);
+            set => SetProperty(ref _currentView, value);
         }
 
         public object CurrentViewModel
         {
             get => _currentViewModel;
-            private set => SetProperty(ref _currentViewModel, value);
+            set => SetProperty(ref _currentViewModel, value);
         }
 
         public MainWindowViewModel(ViewModelManager viewModelManager)
